@@ -1,0 +1,7 @@
+x = input("Name: ")
+print("Name: " + x)
+lab = int(input("Lab Grade: "))
+midterm = int(input("Midterm Grade: "))
+final = int(input("Final Grade: "))
+lastScore = float(lab * 0.25) + float(midterm * 0.35) + float(final * 0.40)
+print("Last Score: ",lastScore)

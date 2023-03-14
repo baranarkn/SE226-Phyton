@@ -1,0 +1,8 @@
+var1 = int(input("First Input: "))
+var2 = int(input("Second Input: "))
+sum = (var1) + (var2)
+diff = (var1) - (var2)
+proud = (var1) * (var2)
+print("Summation:",sum)
+print("Difference:",diff)
+print("Multiplication:",proud)
